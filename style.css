@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+.darkbackground{background-color: #000000;}
+.whitebackground{background-color:#FFFFFF;}
+
+
+.indexbanner{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    opacity: 0.7;
+}
+
+.nav{width:85%;
+margin:auto;
+padding:35px 0;
+display:flex;
+align-items: center;
+justify-content:space-between;
+color: #000000;}
+
+.navlinks{
+    flex: 1;
+    text-align: right;
+    text-decoration: underline;
+    color: #000000;
+    text-shadow: 0px 0px #000000;
+}
+.navlinks a:hover{
+    color: #6C6C6C;
+    background-color: #000000;
+}
+
+.navlinks, ul, li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+.navlinks, ul, li a{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.topleft{
+    width: 120px;
+    cursor: pointer;
+    opacity: 1;
+    font-size: medium;
+}
+.indexmaintext{
+    color: #FFFFFF;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-decoration: overline;
+}
+.indextoptext{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: #000000;
+    font-size: 40px;
+    -webkit-box-shadow: 2px 2px #ffffff;
+    box-shadow: 2px 2px #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 3px 3px #ffffff;
+}
+.indexmiddletext{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF;
+    font-size: 40px;
+    background-color: #000000;
+    padding: 20px;
+    text-decoration: overline;
+    font-weight: bold;	
+}
+.indexbottomtext{
+	position: absolute;
+    top: 70%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: #FFFFFF;
+	font-size: 40px;
+	
+}
+.shopnowbutton{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+.shopnowbutton a
+          {color:#FFFFFF;
+	
+}
+.indexleftproduct{top: 80%;
+	left: 55%;
+	position:absolute;
+	
+	
+}
+.indexrightproduct{top: 80%;
+	left: 30%;
+	position:absolute;
+	
+	
+}
+.secondproduct{
+    position: absolute;
+	top:25%;
+    left: 60%;
+    color: #FFFFFF;
+	font-size: 40px;
+	border-collapse: collapse;}
+.firstproduct{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: #FFFFFF;
+    font-size: 40px;
+    border-collapse: collapse;
+}
+.thirdproduct{
+	position: absolute;
+    top: 122%;
+    left: 20%;
+    color: #FFFFFF;
+    font-size: 40px;
+    border-collapse: collapse;
+}
+.fourthproduct{position: absolute;
+    top: 120%;
+    left: 60%;
+    color: #FFFFFF;
+    font-size: 40px;
+    border-collapse: collapse;
+	
+}
+.fifthproduct{
+	position: absolute;
+    top: 220%;
+    left: 60%;
+    color: #FFFFFF;
+    font-size: 40px;
+    border-collapse: collapse;
+}
+.sixproduct{
+	position: absolute;
+    top: 220%;
+    left: 20%;
+    color: #FFFFFF;
+    font-size: 40px;
+    border-collapse: collapse;
+}
+.productsbuynow{
+    border: solid #FFFFFF 1px;
+    border-radius: 40px;
+	padding: 10px;
+}
+.centeralign {
+	position: absolute;
+	top: 20%;
+    left: 10%;
+	margin: 20px;
+	
+}
+.contactcontent{
+    position: absolute;
+    top: 55%;
+    left: 11%;
+    color: #FFFFFF;
+    font-size: 25px;
+	padding: 10px;
+		
+	
+}
+.directory{color: #FFFFFF;
+	position: absolute;
+	left:10%;
+	
+}
+.contactusname{
+	   position: absolute;
+    top: 63%;
+    left: 12%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.contactusbanner{ background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    opacity: 0.7;
+	margin-left: 35px;
+}
+ 
+.contactusborder{border: solid #FFFFFF 1px;
+	height:50vh;
+	
+}
+.contactusformtext{
+    color: #FFFFFF;
+    margin-left: 10%;
+    font-size: 30px;
+    text-align: left;
+}
+.contactussubmitbutton{
+    margin-left: 85%;
+    font-size: xx-large;
+	color:#ffffff;
+	border: solid #ffffff 4px;
+	text-align: center;
+	border-radius: 20px;
+	max-width:10%;
+	padding:10px;
+	
+	
+}
+.contactussubmitbutton a{   
+	color: #ffffff;
+  
+	
+}
+
+.contactusinput{
+	padding: 10px;
+	margin:10px;
+	
+	
+}
+.contactusinputmessage{
+    position: absolute;
+    min-width: 40%;
+    width: 40%;
+	font-size: 20px;
+	height: 12%;
+	
+  
+}
+.aboutusmessage{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;	
+	border: solid #FFFFFF 3px;
+	align-content:center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	border-radius: 30px;
+	margin-top:10%;
+	
+}
+.aboutusgoal{
+	color: #FFFFFF;
+	size:40px;
+	text-align:center;
+	padding:40px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.aboutusmiddletitle{
+	color:#ffffff;
+	background-color: #000000;
+	size:80px;
+	display: flex;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+.aboutustext{
+    color: #ffffff;
+    background-color: #000000;
+    size: 80px;
+    position:absolute;
+    left:11%;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 250px;
+    text-align: center;
+}
+.aboutustext2{
+    color: #ffffff;
+    background-color: #000000;
+    size: 80px;
+    position:absolute;
+    left:43.4%;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 250px;
+    text-align: center;
+}
+.aboutustext3{
+    color: #ffffff;
+    background-color: #000000;
+    size: 80px;
+    position:absolute;
+    left:76%;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 250px;
+    text-align: center;
+}
+.marginbottom{margin-bottom:400px;
+	
+}
